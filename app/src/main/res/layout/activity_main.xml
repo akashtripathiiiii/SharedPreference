@@ -12,19 +12,18 @@
         android:id="@+id/nameEdit"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="100dp"
-        android:ems="10"
+
         android:inputType="textPersonName"
-        android:text="Name" />
+        android:hint="Name" />
 
     <EditText
         android:id="@+id/emailEdit"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
-        android:ems="10"
+
         android:inputType="textPersonName"
-        android:text="Email" />
+        android:hint="Email" />
 
     <Button
         android:id="@+id/saveBtn"
